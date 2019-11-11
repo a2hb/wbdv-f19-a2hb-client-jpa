@@ -1,0 +1,251 @@
+.nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgb(70, 75, 79);
+    align-items: center !important;
+    white-space: nowrap !important;
+    box-shadow: 0px 1px 13px 0px #0000007d;
+
+}
+
+h1.aa-title-course {
+    font-size: 1rem;
+    margin: 0;
+    margin-right: 5rem;
+    color: white;
+}
+
+ul.nav {
+    height: 3rem;
+}
+
+li.nav-item.close-icon {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: gray;
+}
+
+li.nav-item.close-icon:hover {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: black;
+}
+
+a.nav-link.active {
+    z-index: 1;
+    background: rgb(56, 60, 63);
+    color: rgb(175, 179, 183);
+    border-radius: 5%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 600;
+}
+a.nav-link {
+    z-index: 1;
+    color: rgb(175, 179, 183);
+    border-radius: 5%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
+i.fa.fa-plus.fa-1x {
+    color: white;
+}
+
+i.fa.fa-plus.fa-1x:hover {
+    color: black;
+}
+
+.aa-sidenav{
+    position: fixed;
+    margin-top: 3rem;
+    margin-left: 0rem;
+    background: rgb(55, 59, 62);
+    height: 100rem;
+    width: 18rem;
+    padding-top: 2rem;
+    left: 0px;
+}
+
+a:hover {
+    color: #ffffff !important;
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: rgb(72, 144, 228);
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    margin-top: 1rem;
+    background: rgb(76, 81, 84);
+}
+
+.aa-content {
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+
+button.btn.btn-secondary {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
+h5.d-flex.align-items-center {
+    margin: 0;
+    padding-left: 0.8rem;
+}
+
+/* The switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin:0;
+    margin-left: 1rem;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* The switch End of Code */
+
+
+
+  .table.table-bordered.aa-table {
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-left: 1rem;
+}
+
+h5.aa-Heading-widget-title {
+    margin: 0;
+    padding: 0;
+}
+
+input#HeadingText {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+input#WidgetName {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.col-12.aa-input {
+padding-left: 0;
+}
+
+i.fa.fa-times.fa-1x {
+    color: white;
+}
+
+i.fa.fa-times.fa-1x:hover {
+    color: black;
+}
+
+.aa-plus-sidenav{
+    background: transparent !important;
+}
+textarea {
+    margin-bottom: 10px;
+}
+img{
+    height: 50;
+    width: 50;
+}
+.row.col-auto {
+    flex-wrap: initial;
+}
+
+@media screen and (max-width: 600px) {
+    a.nav-link {
+    display: none;
+    }
+
+    i.fa.fa-plus.fa-1x {
+        display: none;
+    }
+
+    .aa-sidenav{
+        position: fixed;
+        margin-top: 3rem;
+        margin-left: 0rem;
+        background: rgb(55, 59, 62);
+        height: 100rem;
+        width: 10rem;
+        padding-top: 2rem;
+        left: 0px;
+    }
+
+    .aa-content {
+        margin-left: 10rem;
+        margin-top: 5rem;
+    }
+
+    textarea {
+        margin-bottom: 10px;
+    }
+
+
+
+}
